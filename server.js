@@ -9,7 +9,7 @@ const productRoute = require("./route/productRoute")
 
 
 app.use("/product",productRoute)
-
+//askldjasldkjasldkjaksd
 mongoose.connect(process.env.MONGO_URI)
 .then(()=>{
     app.listen(process.env.PORT,()=>{
